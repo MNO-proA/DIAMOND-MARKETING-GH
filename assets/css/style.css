@@ -767,6 +767,7 @@ textarea.input-field {
   display: flex;
   align-items: flex-start;
   gap: 15px;
+  height: 170px;
 }
 
 .contact-card .card-icon {
@@ -1294,9 +1295,41 @@ textarea.input-field {
 .social-media {
   display: inline-block;
   width: 30px;
+  font-size: x-large;
 }
+
+span ion-icon {
+  margin: 0 auto;
+  padding: 3px;
+}
+
+.links-at-header {
+  color: #ff9900;
+}
+
+.copyright-link:hover {
+  background-color: #da8403;
+  color: #001735;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+.links-at-header:hover {
+  background-color: #da8403;
+  color: #001735;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+.links-at-cta:hover {
+  background-color: #001735;
+  color: #da8403;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
 .links-at-cta {
   color: #002454;
+  text-align: center;
 }
 
 .space-down {
