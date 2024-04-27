@@ -49,6 +49,7 @@
   --ff-roboto: "Roboto", sans-serif;
   --ff-league-spartan: "League Spartan", sans-serif;
   --ff-Montserrat: "Montserrat", sans-serif;
+  --ff-Poppins: "Poppins", sans-serif;
 
   --fs-1: 3.5rem;
   --fs-2: 3rem;
@@ -348,7 +349,7 @@ body {
 }
 
 .navbar.active {
-  max-height: 320px;
+  max-height: 900px;
   visibility: visible;
   transition-duration: 0.5s;
 }
@@ -366,11 +367,12 @@ body {
 
 .navbar-link {
   color: #fff;
-  font-family: var(--ff-league-spartan);
+  font-family: var(--ff-Montserrat);
   font-size: var(--fs-4);
   line-height: 1.2;
   padding-block: 8px;
   transition: var(--transition-1);
+  font-weight: 500;
 }
 
 .navbar-link:is(:hover, :focus) {
@@ -501,12 +503,16 @@ body {
 }
 
 .project-card .card-subtitle {
+  font-family: var(--ff-Poppins);
+  font-weight: 500;
   color: var(--lavender-gray);
   font-size: var(--fs-6);
   line-height: 1;
 }
 
 .project-card .card-title {
+  font-family: var(--ff-Montserrat);
+  font-weight: 800;
   color: hsl(0, 0%, 98%);
   margin-block: 12px 15px;
 }
